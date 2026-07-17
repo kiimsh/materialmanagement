@@ -1,0 +1,6 @@
+{
+  "name": "K-Material Insight (KMI)",
+  "description": "Defense material management and risk prediction system for K9 Self-Propelled Howitzer production.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

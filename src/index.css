@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-danger: #ef5350;
+  --color-warning: #ffb020;
+  --color-success: #4ade80;
+  --color-primary: #f97316;
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+  --color-border: #334155;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-100 font-sans antialiased;
+  }
+}
+
+.military-grid {
+  background-image: radial-gradient(rgba(249, 115, 22, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.glass-panel {
+  @apply bg-surface/50 backdrop-blur-md border border-border rounded-lg shadow-xl;
+}
